@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .transition{
+                width: 100px;
+                height: 150px;
+                background: lightcoral;
+                transition: width 2s, height 2s, transform 2s;
+            }
+            div:hover{
+                width: 300px;
+                height: 300px;
+            }
+            body{
+                background-color: cadetblue;
+            }
+            @media screen and (min-width: 800px) {
+                body{
+                    background-color: blueviolet;
+                }
+                
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1>Transition with hover</h1>
+        <div class="transition"></div><br>
+    </body>
+</html>
